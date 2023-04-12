@@ -6,10 +6,14 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+  //we can find any 3d model online and import it like
 
   return (
+    //in three use of mesh instead of div 
     <mesh>
+      
       <hemisphereLight intensity={0.15} groundColor='black' />
+      //The spotlight is the main light for showing the visuals
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
