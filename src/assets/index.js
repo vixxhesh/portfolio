@@ -5,8 +5,11 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
+import colorflip from "./colorflip.png";
+import ca from "./ca.png";
 import close from "./close.svg";
-
+import raystatic from "./company/raystatic.png";
+import gcse from "./company/gcse.jpg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,17 +23,19 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import java from "./tech/java.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import saliency from "./saliency.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  gcse,
+  java,
   logo,
   backend,
   creator,
@@ -38,6 +43,8 @@ export {
   web,
   github,
   menu,
+  saliency,
+  raystatic,
   close,
   css,
   docker,
@@ -47,6 +54,8 @@ export {
   javascript,
   mongodb,
   nodejs,
+  colorflip,
+  ca,
   reactjs,
   redux,
   tailwind,
