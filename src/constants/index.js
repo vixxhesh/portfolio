@@ -1,9 +1,14 @@
 import {
     mobile,
+    saliency,
     backend,
+    ca,
+    gcse,
     creator,
     web,
     javascript,
+    java,
+    colorflip,
     typescript,
     html,
     css,
@@ -15,6 +20,7 @@ import {
     git,
     figma,
     docker,
+    raystatic,
     meta,
     starbucks,
     tesla,
@@ -46,7 +52,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Android Developer",
       icon: mobile,
     },
     {
@@ -54,7 +60,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Artifical intelligence",
       icon: creator,
     },
   ];
@@ -73,15 +79,15 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Java",
+      icon: java,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
+      name: "MongoDb",
       icon: redux,
     },
     {
@@ -97,10 +103,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -108,63 +110,34 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Front-end Development",
+      company_name: "Raystatic",
+      icon: raystatic,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2022 - December 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated with designers to translate their ideas into user-friendly, responsive interfaces.",
+        "Utilized Git and GitHub for version control, ensuring seamless collaboration and code management",
+        "Implemented design features using CSS frameworks such as TailwindCSS and Bootstrap",
+        "Developed a React-based interactive gallery carousel, resulting in a 75% increase in product engagement time.",
+        "Worked with team members to ensure efficient cross-functional collaboration and project delivery."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Web Scraper and Tester",
+      company_name: "Global Council of Science & Environment",
+      icon: gcse,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2022 - Nov 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and implemented automated test case software for extracting and analyzing university course data to check the readiness of curriculum in a 3-person team.",
+        "Analyzed over 500 test cases for debugging Python scripts & utilized Beautiful Soup library for web crawling.",
+        "Learned about HTML content of a webpage and reduced the number of requests sent each time to collect data, hence, improved the model by 20%.",
+        "Successfully exported data from a JSON file to an Excel spreadsheet, by defining JSON as an object and making a GET request JSON API to automate the process.",
       ],
     },
   ];
@@ -198,58 +171,58 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Saliency Object Detection",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Salient Object Detection (SOD) separates the dominant/prominent item (first item visible to the human eye) from the background. This property automatically recognises and segregates major visual regions.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "numpy",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "cv2",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: saliency,
+      source_code_link: "https://github.com/vixxhesh/Identifying-Saliency-in-Image-using-Edge-Detection",
     },
     {
-      name: "Job IT",
+      name: "C.A. firm",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This project is a responsive website for a chartered accountancy firm which showcases the services, firm information, faqs and location.  Developed using HTML, CSS, JavaScript, and Bootstrap.",
       tags: [
         {
-          name: "react",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "html",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: ca,
+      source_code_link: "https://github.com/vixxhesh/binodverma-co",
     },
     {
-      name: "Trip Guide",
+      name: "Color Flipper",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project incorporates the use of Vanilla Javascript. Hex page includes a button by which color of the body changes by generating random hex codes. Created from freecodecamp tutorial to practice.",
       tags: [
         {
-          name: "nextjs",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +230,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: colorflip,
+      source_code_link: "https://github.com/vixxhesh/ColorFlipper",
     },
   ];
   
