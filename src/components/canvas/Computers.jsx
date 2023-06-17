@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./vintage_pc/scene.gltf");
   //we can find any 3d model online and import it like
 
   return (
@@ -16,7 +16,7 @@ const Computers = ({ isMobile }) => {
       //The spotlight is the main light for showing the visuals
       <spotLight
         position={[-20, 50, 10]}
-        angle={0.12}
+        angle={0.32}
         penumbra={1}
         intensity={1}
         castShadow
@@ -25,9 +25,9 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        scale={isMobile ? 2.2 : 2.55}
+        position={isMobile ? [-4, -4.7, -0.2] : [5, -4.65, -2.5]}
+        rotation={isMobile? [0.1, 1.1, 0.02]: [-0.01, -0.2, -0.1]}
       />
     </mesh>
   );
@@ -38,7 +38,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 800px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
@@ -61,8 +61,8 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
-      dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      dpr={[2, 1]}
+      camera={{ position: [20, 10, 23 ], fov: 28 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>

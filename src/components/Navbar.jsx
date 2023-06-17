@@ -11,10 +11,10 @@ const Navbar = () => {
 
   return (
     <nav 
-      className={'${styles.paddinX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary'}
+      className={'${styles.paddinX} w-full flex items-center py-6 fixed top-0 z-20 bg-deep-green'}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <Link
+      <div className='w-full flex justify-between items-center  mx-auto'>
+        {/* <Link
           to="/"
           className='flex items-center gap-2'
           onClick={() => {
@@ -28,16 +28,19 @@ const Navbar = () => {
           Fullstack Developer</span></p>
 
 
-        </Link>
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        </Link> */}
+
+        
+        <ul className='list-none absolute w-full flex justify-center gap-20 '>
+
           {navLinks.map((link) => (
             <li
               key = {link.id}
               className={
                 ` ${
                   active === link.title
-                  ? "text-white"
-                  : "text-secondary"
+                  ? "text-beige"
+                  : "text-beige"
                 } hover:text-white text-[18px] font-medium cursor-pointer`}
                 onClick = {()=> setActive(link.title)}
             >
@@ -46,9 +49,10 @@ const Navbar = () => {
             </li>
           )
           )}
+
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        {/* <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
           src = {toggle ? close : menu}
           alt = "menu"
@@ -57,7 +61,7 @@ const Navbar = () => {
           />
 
           <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
-            <ul className='list-none jflex justify-end items-start flex-col gap-4'>
+          <ul className='list-none jflex justify-end items-start flex-col gap-4'>
           {navLinks.map((link) => (
             <li
               key = {link.id}
@@ -80,7 +84,7 @@ const Navbar = () => {
             </ul>
           </div>
 
-        </div>
+        </div> */}
       </div>
     </nav>
   )

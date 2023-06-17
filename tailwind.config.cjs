@@ -11,6 +11,10 @@ module.exports = {
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
+        "dd-green": "#2E4F4F",
+        "l-green": "#0E8388",
+        "beige": "#CBE4DE",
+        "deep-green": "#2C3333"
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
@@ -19,7 +23,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/herobg.jpg')",
       },
     },
   },
