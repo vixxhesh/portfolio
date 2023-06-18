@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import colorflip from "./colorflip.png";
 import ca from "./ca.png";
+import ufs from "./company/ufs.jpg";
 import close from "./close.svg";
 import raystatic from "./company/raystatic.png";
 import gcse from "./company/gcse.jpg";
@@ -51,6 +52,7 @@ export {
   menu,
   saliency,
   raystatic,
+  ufs,
   close,
   css,
   docker,

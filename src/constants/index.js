@@ -6,6 +6,7 @@ import {
     gcse,
     creator,
     web,
+    ufs,
     javascript,
     mysql,
     tensorflow,
@@ -125,6 +126,19 @@ import {
   
   const experiences = [
     {
+      title: "Mobile application developer intern",
+      company_name: "Unified Consultancy Services",
+      icon: ufs,
+      iconBg: "#383E56",
+      date: "May 2023 - June 2023",
+      points: [
+        "Learn about react native and its technologies.",
+        "Create the software requirements specification document. ",
+        "Research and choose an appropriate AI breed detection API, then integrate it into the app.",
+        "Test and refine the feature to ensure accurate and reliable results.",
+      ],
+    },
+    {
       title: "Front-end Development",
       company_name: "Raystatic",
       icon: raystatic,
@@ -152,33 +166,7 @@ import {
       ],
     },
   ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+
   
   const projects = [
     {
@@ -203,20 +191,20 @@ import {
       source_code_link: "https://github.com/vixxhesh/Identifying-Saliency-in-Image-using-Edge-Detection",
     },
     {
-      name: "C.A. firm",
+      name: "Tax Personnel",
       description:
-        "This project is a responsive website for a chartered accountancy firm which showcases the services, firm information, faqs and location.  Developed using HTML, CSS, JavaScript, and Bootstrap.",
+        "The application aims to connect users with chartered accountants for financial, accounting, GST, consultation. Users can submit their queries through the app, and the admin can review, confirm appointments, and schedule meetings with the CAs.",
       tags: [
         {
-          name: "javascript",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "bootstrap",
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
-          name: "html",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
@@ -224,20 +212,20 @@ import {
       source_code_link: "https://github.com/vixxhesh/binodverma-co",
     },
     {
-      name: "Color Flipper",
+      name: "4-Paws Pet",
       description:
-        "This project incorporates the use of Vanilla Javascript. Hex page includes a button by which color of the body changes by generating random hex codes. Created from freecodecamp tutorial to practice.",
+        "4-Paws near me is a mobile application developed using React Native for pet adoption, specifically designed for cats and dogs. The app provides an AI breed detector feature and locates pets in the nearby area.",
       tags: [
         {
-          name: "html",
+          name: "react native",
           color: "blue-text-gradient",
         },
         {
-          name: "javascript",
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
@@ -246,4 +234,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

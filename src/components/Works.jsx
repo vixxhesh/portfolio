@@ -19,6 +19,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      
       <Tilt
         options={{
           max: 45,
@@ -26,12 +27,14 @@ const ProjectCard = ({
           speed: 450,
         }}
         className='bg-dd-green p-5 rounded-2xl sm:w-[360px] w-full'
+        
       >
+      
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
             alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
+            className='w-full h-full object-contain rounded-2xl'
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
@@ -77,21 +80,20 @@ const Works = () => {
       </motion.div>
 
       <div className='w-full flex'>
+      
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          I'm a proficient software developer with extensive experience in HTML, CSS, JavaScript, and Bootstrap, along with specialized knowledge in React, Node.js, and MongoDB. Additionally, I have expertise in mobile app development using Flutter and React Native, and I'm proficient in MySQL for SQL databases. I have a strong understanding of hosting and deployment, as well as integrating systems through REST APIs. With my aptitude for rapid learning and close collaboration with clients, I can produce efficient, scalable, and user-friendly solutions that address real-world problems. I'm eager to work with you and bring your ideas to fruition!
         </motion.p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
+        
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
+
         ))}
       </div>
       
