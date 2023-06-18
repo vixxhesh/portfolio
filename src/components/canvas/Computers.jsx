@@ -12,7 +12,7 @@ const Computers = ({ isMobile }) => {
     //in three use of mesh instead of div 
     <mesh>
       
-      <hemisphereLight intensity={0.35} groundColor='black' />
+      <hemisphereLight intensity={0.45} groundColor='black' />
       //The spotlight is the main light for showing the visuals
       <spotLight
         position={[-20, 50, 10]}
@@ -22,7 +22,7 @@ const Computers = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={2} />
+      <pointLight intensity={3} />
       <primitive
         object={computer.scene}
         scale={isMobile ? 1.7 : 2.55}

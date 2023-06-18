@@ -12,9 +12,10 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient'/>
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-beige`}>Hi, I'm <span className='text-deep-green'>Vishesh</span></h1>
+          <h1 className={`${styles.heroHeadText} text-beige`}> This is <span className='text-deep-green'>Vishesh</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-beige`}>
-            I develop websites and mobile applications <br className='sm:block hidden'/> using MERN stack
+            He likes to experiment on codes and designs <br className='sm:block'/> for mobile and web applications. 
+            <br className='sm:block'/> <br className='sm:block '/>  <span className='text-white italic '> It works on my machine! </span>
           </p>
         </div>
       </div>

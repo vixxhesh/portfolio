@@ -7,7 +7,9 @@ import {
     creator,
     web,
     javascript,
-    java,
+    mysql,
+    tensorflow,
+    flutter,
     colorflip,
     typescript,
     html,
@@ -18,6 +20,7 @@ import {
     nodejs,
     mongodb,
     git,
+    cpp,
     figma,
     docker,
     raystatic,
@@ -48,19 +51,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "FullStack Web Dev",
       icon: web,
     },
     {
-      title: "Android Developer",
+      title: "Mobile Application Dev",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "C++ Programming",
       icon: backend,
     },
     {
-      title: "Artifical intelligence",
+      title: "AI/ML & Neural Nets",
       icon: creator,
     },
   ];
@@ -79,16 +82,20 @@ import {
       icon: javascript,
     },
     {
-      name: "Java",
-      icon: java,
+      name: "C++",
+      icon: cpp,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "MongoDb",
-      icon: redux,
+      name: "flutter",
+      icon: flutter,
+    },
+    {
+      name: "Mysql",
+      icon: mysql,
     },
     {
       name: "Tailwind CSS",
@@ -105,6 +112,10 @@ import {
     {
       name: "git",
       icon: git,
+    },
+    {
+      name: "tensorflow",
+      icon: tensorflow,
     },
     {
       name: "figma",
