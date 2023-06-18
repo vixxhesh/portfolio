@@ -12,22 +12,22 @@ const Computers = ({ isMobile }) => {
     //in three use of mesh instead of div 
     <mesh>
       
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={0.35} groundColor='black' />
       //The spotlight is the main light for showing the visuals
       <spotLight
         position={[-20, 50, 10]}
         angle={0.32}
-        penumbra={1}
+        penumbra={2}
         intensity={1}
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={1} />
+      <pointLight intensity={2} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 2.2 : 2.55}
-        position={isMobile ? [-4, -4.7, -0.2] : [5, -4.65, -2.5]}
-        rotation={isMobile? [0.1, 1.1, 0.02]: [-0.01, -0.2, -0.1]}
+        scale={isMobile ? 1.7 : 2.55}
+        position={isMobile ? [-4, -4.7, -0.2] : [7, -5.65, -2.5]}
+        rotation={isMobile? [0.1, 1.1, 0.02]: [-0.01, 0.2, 0]}
       />
     </mesh>
   );

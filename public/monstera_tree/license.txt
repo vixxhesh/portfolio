@@ -1,0 +1,11 @@
+Model Information:
+* title:	Monstera Tree
+* source:	https://sketchfab.com/3d-models/monstera-tree-6d219fec989947698609f1b6945e009c
+* author:	sligocreatures (https://sketchfab.com/sligocreatures)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Monstera Tree" (https://sketchfab.com/3d-models/monstera-tree-6d219fec989947698609f1b6945e009c) by sligocreatures (https://sketchfab.com/sligocreatures) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
